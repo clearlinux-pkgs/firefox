@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 40.0.3
+Version  : 41.0
 Release  : 3
-URL      : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/40.0.3/source/firefox-40.0.3.source.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/40.0.3/source/firefox-40.0.3.source.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/40.0.3/linux-x86_64/en-US/firefox-40.0.3.tar.bz2
+URL      : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0/source/firefox-41.0.source.tar.xz
+Source0  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0/source/firefox-41.0.source.tar.xz
+Source1  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0/linux-x86_64/en-US/firefox-41.0.tar.bz2
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
