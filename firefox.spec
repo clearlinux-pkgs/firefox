@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 41.0
+Version  : 41.0.1
 Release  : 4
-URL      : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0/source/firefox-41.0.source.tar.xz
-Source0  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0/source/firefox-41.0.source.tar.xz
-Source1  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0/linux-x86_64/en-US/firefox-41.0.tar.bz2
+URL      : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.1/source/firefox-41.0.1.source.tar.xz
+Source0  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.1/source/firefox-41.0.1.source.tar.xz
+Source1  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.1/linux-x86_64/en-US/firefox-41.0.1.tar.bz2
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
@@ -25,6 +25,9 @@ install -D -m 00644 %{SOURCE2} %{buildroot}/usr/share/applications/firefox.deskt
 
 # Binwrapper - extracts and sets up firefox, or passes through, as appropriate
 install -D -m 00755 %{SOURCE3} %{buildroot}/usr/bin/firefox
+
+# Ensure the versioning is consistent - centralise this stuff.
+sed -i %{buildroot}/usr/bin/firefox -e 's/\#\#VERSION\#\#/%{version}/g'
 
 %files
 %defattr(-,root,root,-)

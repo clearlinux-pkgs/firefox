@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="40.0.1"
+VERSION="##VERSION##"
 BASEDIR="/usr/share/firefox-stub"
 SFILE="${BASEDIR}/firefox-${VERSION}.tar.bz2"
 LFILE="${HOME}/firefox/firefox"
