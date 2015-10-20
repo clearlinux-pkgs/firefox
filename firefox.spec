@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 41.0.2
-Release  : 5
+Release  : 6
 URL      : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.2/source/firefox-41.0.2.source.tar.xz
 Source0  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.2/source/firefox-41.0.2.source.tar.xz
 Source1  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.2/linux-x86_64/en-US/firefox-41.0.2.tar.bz2
