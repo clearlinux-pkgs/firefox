@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 41.0.1
+Version  : 41.0.2
 Release  : 5
-URL      : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.1/source/firefox-41.0.1.source.tar.xz
-Source0  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.1/source/firefox-41.0.1.source.tar.xz
-Source1  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.1/linux-x86_64/en-US/firefox-41.0.1.tar.bz2
+URL      : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.2/source/firefox-41.0.2.source.tar.xz
+Source0  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.2/source/firefox-41.0.2.source.tar.xz
+Source1  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/41.0.2/linux-x86_64/en-US/firefox-41.0.2.tar.bz2
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
