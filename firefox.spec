@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 42.0
-Release  : 6
+Release  : 7
 URL      : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/42.0/source/firefox-42.0.source.tar.xz
 Source0  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/42.0/source/firefox-42.0.source.tar.xz
 Source1  : http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/42.0/linux-x86_64/en-US/firefox-42.0.tar.bz2
