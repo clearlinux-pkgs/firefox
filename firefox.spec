@@ -18,7 +18,7 @@ Stub package to assist with installation of Mozilla Firefox Web Browser
 
 %install
 rm -rf %{buildroot}
-install -D -m 00644 %{SOURCE1} %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar.bz2
+install -D -m 00644 %{SOURCE0} %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar.bz2
 
 # Desktop launcher
 install -D -m 00644 %{SOURCE2} %{buildroot}/usr/share/applications/firefox.desktop
