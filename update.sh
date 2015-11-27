@@ -7,4 +7,9 @@ if [[ -z "${VERSION}" ]]; then
     exit 1
 fi
 
-sed template.spec -e "s/\#\#VERSION\#\#/${VERSION}/g" > firefox.spec
+sed firefox.spec.in -e "s/\#\#VERSION\#\#/${VERSION}/g" > firefox.spec
+make generateupstream || exit 1
+
+git add firefox.spec Makefile release upstream
+git commit -s -m "Update to ${VERSION}"
+make bump
