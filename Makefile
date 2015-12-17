@@ -1,4 +1,4 @@
 PKG_NAME := firefox
-URL := http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/40.0.1/source/firefox-40.0.1.source.tar.bz2
+URL := http://ftp.mozilla.org/pub/firefox/releases/43.0/source/firefox-43.0.source.tar.xz
 
 include ../common/Makefile.common
