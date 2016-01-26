@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 43.0.4
-Release  : 12
-URL      : http://ftp.mozilla.org/pub/firefox/releases/43.0.4/linux-x86_64/en-US/firefox-43.0.4.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/firefox/releases/43.0.4/linux-x86_64/en-US/firefox-43.0.4.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/firefox/releases/43.0.4/source/firefox-43.0.4.source.tar.xz
+Version  : 44.0
+Release  : 10
+URL      : http://ftp.mozilla.org/pub/firefox/releases/44.0/linux-x86_64/en-US/firefox-44.0.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/firefox/releases/44.0/linux-x86_64/en-US/firefox-44.0.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/firefox/releases/44.0/source/firefox-44.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
