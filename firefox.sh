@@ -16,6 +16,10 @@ if [[ -d "${FDIR}" ]]; then
     exit 1
 fi
 
+if [[ -x /usr/bin/notify-send ]]; then
+    /usr/bin/notify-send -i firefox "Preparing Firefox" "Firefox will launch shortly, please wait for it to be prepared for the first use."
+fi
+
 cd "${HOME}"
 tar xf "${SFILE}"
 
