@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 44.0.2
-Release  : 11
+Release  : 12
 URL      : http://ftp.mozilla.org/pub/firefox/releases/44.0.2/linux-x86_64/en-US/firefox-44.0.2.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/44.0.2/linux-x86_64/en-US/firefox-44.0.2.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/44.0.2/source/firefox-44.0.2.source.tar.xz
