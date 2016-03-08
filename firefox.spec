@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 45.0
-Release  : 10
+Release  : 11
 URL      : http://ftp.mozilla.org/pub/firefox/releases/45.0/linux-x86_64/en-US/firefox-45.0.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/45.0/linux-x86_64/en-US/firefox-45.0.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/45.0/source/firefox-45.0.source.tar.xz
