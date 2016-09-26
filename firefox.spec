@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 49.0
-Release  : 11
-URL      : http://ftp.mozilla.org/pub/firefox/releases/49.0/linux-x86_64/en-US/firefox-49.0.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/firefox/releases/49.0/linux-x86_64/en-US/firefox-49.0.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/firefox/releases/49.0/source/firefox-49.0.source.tar.xz
+Version  : 49.0.1
+Release  : 10
+URL      : http://ftp.mozilla.org/pub/firefox/releases/49.0.1/linux-x86_64/en-US/firefox-49.0.1.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/firefox/releases/49.0.1/linux-x86_64/en-US/firefox-49.0.1.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/firefox/releases/49.0.1/source/firefox-49.0.1.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
