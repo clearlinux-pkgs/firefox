@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 50.1.0
-Release  : 11
+Release  : 10
 URL      : http://ftp.mozilla.org/pub/firefox/releases/50.1.0/linux-x86_64/en-US/firefox-50.1.0.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/50.1.0/linux-x86_64/en-US/firefox-50.1.0.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/50.1.0/source/firefox-50.1.0.source.tar.xz
