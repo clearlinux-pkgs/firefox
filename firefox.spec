@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 52.0esr
-Release  : 10
+Release  : 11
 URL      : http://ftp.mozilla.org/pub/firefox/releases/52.0esr/linux-x86_64/en-US/firefox-52.0esr.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/52.0esr/linux-x86_64/en-US/firefox-52.0esr.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/52.0esr/source/firefox-52.0esr.source.tar.xz
