@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 52.0esr
-Release  : 11
-URL      : http://ftp.mozilla.org/pub/firefox/releases/52.0esr/linux-x86_64/en-US/firefox-52.0esr.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/firefox/releases/52.0esr/linux-x86_64/en-US/firefox-52.0esr.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/firefox/releases/52.0esr/source/firefox-52.0esr.source.tar.xz
+Version  : 52.0
+Release  : 10
+URL      : http://ftp.mozilla.org/pub/firefox/releases/52.0/linux-x86_64/en-US/firefox-52.0.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/firefox/releases/52.0/linux-x86_64/en-US/firefox-52.0.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/firefox/releases/52.0/source/firefox-52.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
