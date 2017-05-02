@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 53.0
-Release  : 11
+Release  : 12
 URL      : http://ftp.mozilla.org/pub/firefox/releases/53.0/linux-x86_64/en-US/firefox-53.0.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/53.0/linux-x86_64/en-US/firefox-53.0.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/53.0/source/firefox-53.0.source.tar.xz
