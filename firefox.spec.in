@@ -10,6 +10,7 @@ Summary  : Firefox web browser
 Group    : Development/Tools
 License  : GPL-2.0+ MPL-2.0
 Requires : alsa-lib bzip2 tar
+Requires : chrome-gnome-shell
 
 %description
 Introduction
