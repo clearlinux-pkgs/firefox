@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 55.0.3
-Release  : 10
+Release  : 11
 URL      : http://ftp.mozilla.org/pub/firefox/releases/55.0.3/linux-x86_64/en-US/firefox-55.0.3.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/55.0.3/linux-x86_64/en-US/firefox-55.0.3.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/55.0.3/source/firefox-55.0.3.source.tar.xz
