@@ -2,7 +2,7 @@
 
 VERSION="##VERSION##"
 BASEDIR="/usr/share/firefox-stub"
-SFILE="${BASEDIR}/firefox-${VERSION}.tar.bz2"
+SFILE="${BASEDIR}/firefox-${VERSION}.tar.gz"
 LFILE="${HOME}/firefox/firefox"
 FDIR="${HOME}/firefox"
 # p11-kit provides a "bridge" for libnss to access the trust information
