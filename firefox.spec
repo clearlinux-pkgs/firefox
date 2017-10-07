@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 56.0
-Release  : 12
-URL      : http://ftp.mozilla.org/pub/firefox/releases/56.0/linux-x86_64/en-US/firefox-56.0.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/firefox/releases/56.0/linux-x86_64/en-US/firefox-56.0.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/firefox/releases/56.0/source/firefox-56.0.source.tar.xz
+Version  : 56.0.1
+Release  : 10
+URL      : http://ftp.mozilla.org/pub/firefox/releases/56.0.1/linux-x86_64/en-US/firefox-56.0.1.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/firefox/releases/56.0.1/linux-x86_64/en-US/firefox-56.0.1.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/firefox/releases/56.0.1/source/firefox-56.0.1.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
@@ -19,7 +19,9 @@ Stub package to assist with installation of Mozilla Firefox Web Browser
 
 %install
 rm -rf %{buildroot}
-install -D -m 00644 %{SOURCE0} %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar.bz2
+mkdir -p  %{buildroot}/usr/share/firefox-stub/
+bunzip2 -c %{SOURCE0} | gzip --rsyncable --stdout > %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar.gz
+
 
 # Desktop launcher
 install -D -m 00644 %{SOURCE2} %{buildroot}/usr/share/applications/firefox.desktop
@@ -33,5 +35,5 @@ sed -i %{buildroot}/usr/bin/firefox -e 's/\#\#VERSION\#\#/%{version}/g'
 %files
 %defattr(-,root,root,-)
 /usr/bin/firefox
-/usr/share/firefox-stub/firefox-%{version}.tar.bz2
+/usr/share/firefox-stub/firefox-%{version}.tar.gz
 /usr/share/applications/firefox.desktop
