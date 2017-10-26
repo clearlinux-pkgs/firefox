@@ -20,7 +20,7 @@ Stub package to assist with installation of Mozilla Firefox Web Browser
 %install
 rm -rf %{buildroot}
 mkdir -p  %{buildroot}/usr/share/firefox-stub/
-bunzip2 -c %{SOURCE0} | gzip --rsyncable --stdout > %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar.gz
+bunzip2 -c %{SOURCE0} > %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar
 
 
 # Desktop launcher
@@ -35,5 +35,5 @@ sed -i %{buildroot}/usr/bin/firefox -e 's/\#\#VERSION\#\#/%{version}/g'
 %files
 %defattr(-,root,root,-)
 /usr/bin/firefox
-/usr/share/firefox-stub/firefox-%{version}.tar.gz
+/usr/share/firefox-stub/firefox-%{version}.tar
 /usr/share/applications/firefox.desktop
