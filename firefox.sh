@@ -1,31 +1,37 @@
 #!/bin/bash
 
 VERSION="##VERSION##"
+USER_CONFIG="${HOME}/.config/firefox.conf"
+
+if [ -f "${USER_CONFIG}" ]; then
+    source "${USER_CONFIG}"
+fi
+
 BASEDIR="/usr/share/firefox-stub"
 SFILE="${BASEDIR}/firefox-${VERSION}.tar"
-LFILE="${HOME}/firefox/firefox"
-FDIR="${HOME}/firefox"
+FIREFOX_INSTALL_DIR=${FIREFOX_INSTALL_DIR:-"${HOME}/firefox"}
+LFILE="${FIREFOX_INSTALL_DIR}/firefox"
 # p11-kit provides a "bridge" for libnss to access the trust information
-NSSCKBI="${FDIR}/libnssckbi.so"
+NSSCKBI="${FIREFOX_INSTALL_DIR}/libnssckbi.so"
 P11KIT_BRIDGE="/usr/lib64/p11-kit-trust.so"
-
 
 if [[ -x "${LFILE}" ]] ; then
     exec "${LFILE}" $*
     exit 0
 fi
 
-if [[ -d "${FDIR}" ]]; then
-    echo "Exiting as ${FDIR} exists."
+if [[ -d "${FIREFOX_INSTALL_DIR}" ]]; then
+    echo "Exiting as ${FIREFOX_INSTALL_DIR} exists."
     exit 1
+else
+    mkdir -p "${FIREFOX_INSTALL_DIR}"
 fi
 
 if [[ -x /usr/bin/notify-send ]]; then
     /usr/bin/notify-send -i firefox "Preparing Firefox" "Firefox will launch shortly, please wait for it to be prepared for the first use."
 fi
 
-cd "${HOME}"
-tar xf "${SFILE}"
+tar xf "${SFILE}" -C "${FIREFOX_INSTALL_DIR}" --strip-components=1
 
 if [ -f "$P11KIT_BRIDGE" ]; then
     # backup the original and replace it with a link
