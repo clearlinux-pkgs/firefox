@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 59.0.3
-Release  : 12
-URL      : http://ftp.mozilla.org/pub/firefox/releases/59.0.3/linux-x86_64/en-US/firefox-59.0.3.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/firefox/releases/59.0.3/linux-x86_64/en-US/firefox-59.0.3.tar.bz2
-Source1  : https://hg.mozilla.org/releases/mozilla-release/archive/6b51784853e47e091d213d421a19cb623af718f0.tar.gz
+Version  : 60.0
+Release  : 13
+URL      : http://ftp.mozilla.org/pub/firefox/releases/60.0/linux-x86_64/en-US/firefox-60.0.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/firefox/releases/60.0/linux-x86_64/en-US/firefox-60.0.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/firefox/releases/60.0/source/firefox-60.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
