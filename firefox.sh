@@ -13,7 +13,7 @@ FIREFOX_INSTALL_DIR=${FIREFOX_INSTALL_DIR:-"${HOME}/firefox"}
 LFILE="${FIREFOX_INSTALL_DIR}/firefox"
 # p11-kit provides a "bridge" for libnss to access the trust information
 NSSCKBI="${FIREFOX_INSTALL_DIR}/libnssckbi.so"
-P11KIT_BRIDGE="/usr/lib64/p11-kit-trust.so"
+P11KIT_BRIDGE="/usr/lib64/pkcs11/p11-kit-trust.so"
 
 if [[ -x "${LFILE}" ]] ; then
     exec "${LFILE}" $*
