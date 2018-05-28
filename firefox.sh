@@ -20,10 +20,7 @@ if [[ -x "${LFILE}" ]] ; then
     exit 0
 fi
 
-if [[ -d "${FIREFOX_INSTALL_DIR}" ]]; then
-    echo "Exiting as ${FIREFOX_INSTALL_DIR} exists."
-    exit 1
-else
+if [[ ! -d "${FIREFOX_INSTALL_DIR}" ]]; then
     mkdir -p "${FIREFOX_INSTALL_DIR}"
 fi
 
