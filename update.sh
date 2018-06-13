@@ -10,12 +10,13 @@ fi
 
 #no spaces in version we hope..
 CURRENT_VERSION=$(grep "^Version" firefox.spec | cut -f4 -d" ")
+CURRENT_RELEASE=$(grep "^Release" firefox.spec | cut -f4 -d" ")
 
 if [[ v"${CURRENT_VERSION}" == v"${VERSION}" ]]; then
 	exit 2
 fi
 
-sed firefox.spec.in -e "s/\#\#VERSION\#\#/${VERSION}/g" > firefox.spec
+sed -e "s/##VERSION##/${VERSION}/g; s/##RELEASE##/${CURRENT_RELEASE}/" firefox.spec.in > firefox.spec
 make generateupstream || exit 3
 
 git add firefox.spec Makefile release upstream

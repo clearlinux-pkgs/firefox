@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : ##VERSION##
-Release  : 10
+Release  : ##RELEASE##
 URL      : http://ftp.mozilla.org/pub/firefox/releases/##VERSION##/linux-x86_64/en-US/firefox-##VERSION##.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/##VERSION##/linux-x86_64/en-US/firefox-##VERSION##.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/##VERSION##/source/firefox-##VERSION##.source.tar.xz
