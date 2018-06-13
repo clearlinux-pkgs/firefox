@@ -11,7 +11,7 @@ Group    : Development/Tools
 License  : GPL-2.0+ MPL-2.0
 Requires : alsa-lib bzip2 tar
 Requires : chrome-gnome-shell
-Requires : nspr nss pango cairo gtk3 mesa gtk+
+Requires : nspr nss-lib pango cairo gtk3 mesa gtk+
 
 %description
 Introduction
