@@ -15,21 +15,21 @@ LFILE="${FIREFOX_INSTALL_DIR}/firefox"
 NSSCKBI="${FIREFOX_INSTALL_DIR}/libnssckbi.so"
 P11KIT_BRIDGE="/usr/lib64/pkcs11/p11-kit-trust.so"
 
-if [[ -x "${LFILE}" ]] ; then
+# if the system trust strore symlink exists, then all is in place
+if [ -L "${NSSCKBI}" ] ; then
     exec "${LFILE}" $*
     exit 0
 fi
 
 if [[ ! -d "${FIREFOX_INSTALL_DIR}" ]]; then
+    if [[ -x /usr/bin/notify-send ]]; then
+        /usr/bin/notify-send -i firefox "Preparing Firefox" "Firefox will launch shortly, please wait for it to be prepared for the first use."
+    fi
     mkdir -p "${FIREFOX_INSTALL_DIR}"
+    tar xf "${SFILE}" -C "${FIREFOX_INSTALL_DIR}" --strip-components=1
 fi
 
-if [[ -x /usr/bin/notify-send ]]; then
-    /usr/bin/notify-send -i firefox "Preparing Firefox" "Firefox will launch shortly, please wait for it to be prepared for the first use."
-fi
-
-tar xf "${SFILE}" -C "${FIREFOX_INSTALL_DIR}" --strip-components=1
-
+# use system trust store
 if [ -f "$P11KIT_BRIDGE" ]; then
     # backup the original and replace it with a link
     if [ -f "$NSSCKBI" ]; then
