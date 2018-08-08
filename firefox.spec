@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 61.0.2
-Release  : 20
+Release  : 21
 URL      : http://ftp.mozilla.org/pub/firefox/releases/61.0.2/linux-x86_64/en-US/firefox-61.0.2.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/61.0.2/linux-x86_64/en-US/firefox-61.0.2.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/61.0.2/source/firefox-61.0.2.source.tar.xz
