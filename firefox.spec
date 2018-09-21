@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 62.0.2
-Release  : 22
+Release  : 23
 URL      : http://ftp.mozilla.org/pub/firefox/releases/62.0.2/linux-x86_64/en-US/firefox-62.0.2.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/62.0.2/linux-x86_64/en-US/firefox-62.0.2.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/62.0.2/source/firefox-62.0.2.source.tar.xz
