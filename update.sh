@@ -22,3 +22,4 @@ make generateupstream || exit 3
 git add firefox.spec Makefile release upstream
 git commit -s -m "Update to ${VERSION}"
 make bump
+make koji
