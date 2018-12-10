@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 63.0.3
+Version  : 64.0
 Release  : 27
-URL      : http://ftp.mozilla.org/pub/firefox/releases/63.0.3/linux-x86_64/en-US/firefox-63.0.3.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/firefox/releases/63.0.3/linux-x86_64/en-US/firefox-63.0.3.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/firefox/releases/63.0.3/source/firefox-63.0.3.source.tar.xz
+URL      : http://ftp.mozilla.org/pub/firefox/releases/64.0/linux-x86_64/en-US/firefox-64.0.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/firefox/releases/64.0/linux-x86_64/en-US/firefox-64.0.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/firefox/releases/64.0/source/firefox-64.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
