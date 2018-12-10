@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 64.0
-Release  : 27
+Release  : 28
 URL      : http://ftp.mozilla.org/pub/firefox/releases/64.0/linux-x86_64/en-US/firefox-64.0.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/64.0/linux-x86_64/en-US/firefox-64.0.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/64.0/source/firefox-64.0.source.tar.xz
