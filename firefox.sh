@@ -21,7 +21,7 @@ if [ -L "${NSSCKBI}" ] ; then
     exit 0
 fi
 
-if [[ ! -d "${FIREFOX_INSTALL_DIR}" ]]; then
+if [[ ! -x "${LFILE}" ]]; then
     if [[ -x /usr/bin/notify-send ]]; then
         /usr/bin/notify-send -i firefox "Preparing Firefox" "Firefox will launch shortly, please wait for it to be prepared for the first use."
     fi
