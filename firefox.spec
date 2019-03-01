@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 65.0.2
-Release  : 33
+Release  : 34
 URL      : http://ftp.mozilla.org/pub/firefox/releases/65.0.2/linux-x86_64/en-US/firefox-65.0.2.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/65.0.2/linux-x86_64/en-US/firefox-65.0.2.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/65.0.2/source/firefox-65.0.2.source.tar.xz
@@ -11,6 +11,8 @@ Group    : Development/Tools
 License  : GPL-2.0+ MPL-2.0
 Requires : alsa-lib bzip2 tar
 Requires : chrome-gnome-shell
+Requires : glib
+Requires : gsettings-desktop-schemas
 Requires : nspr nss-lib pango cairo gtk3 mesa gtk+
 
 %description
