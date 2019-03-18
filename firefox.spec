@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 65.0.2
+Version  : 66.0
 Release  : 34
-URL      : http://ftp.mozilla.org/pub/firefox/releases/65.0.2/linux-x86_64/en-US/firefox-65.0.2.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/firefox/releases/65.0.2/linux-x86_64/en-US/firefox-65.0.2.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/firefox/releases/65.0.2/source/firefox-65.0.2.source.tar.xz
+URL      : http://ftp.mozilla.org/pub/firefox/releases/66.0/linux-x86_64/en-US/firefox-66.0.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/firefox/releases/66.0/linux-x86_64/en-US/firefox-66.0.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/firefox/releases/66.0/source/firefox-66.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
@@ -11,8 +11,6 @@ Group    : Development/Tools
 License  : GPL-2.0+ MPL-2.0
 Requires : alsa-lib bzip2 tar
 Requires : chrome-gnome-shell
-Requires : glib
-Requires : gsettings-desktop-schemas
 Requires : nspr nss-lib pango cairo gtk3 mesa gtk+
 
 %description
