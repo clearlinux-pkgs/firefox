@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 66.0.5
-Release  : 39
+Release  : 40
 URL      : http://ftp.mozilla.org/pub/firefox/releases/66.0.5/linux-x86_64/en-US/firefox-66.0.5.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/66.0.5/linux-x86_64/en-US/firefox-66.0.5.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/66.0.5/source/firefox-66.0.5.source.tar.xz
