@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 66.0.5
+Version  : 67.0
 Release  : 40
-URL      : http://ftp.mozilla.org/pub/firefox/releases/66.0.5/linux-x86_64/en-US/firefox-66.0.5.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/firefox/releases/66.0.5/linux-x86_64/en-US/firefox-66.0.5.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/firefox/releases/66.0.5/source/firefox-66.0.5.source.tar.xz
+URL      : http://ftp.mozilla.org/pub/firefox/releases/67.0/linux-x86_64/en-US/firefox-67.0.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/firefox/releases/67.0/linux-x86_64/en-US/firefox-67.0.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/firefox/releases/67.0/source/firefox-67.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
