@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 67.0.4
-Release  : 46
+Release  : 47
 URL      : http://ftp.mozilla.org/pub/firefox/releases/67.0.4/linux-x86_64/en-US/firefox-67.0.4.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/firefox/releases/67.0.4/linux-x86_64/en-US/firefox-67.0.4.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/firefox/releases/67.0.4/source/firefox-67.0.4.source.tar.xz
