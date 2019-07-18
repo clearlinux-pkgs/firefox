@@ -1,9 +1,9 @@
 Name     : firefox
 Version  : 68.0
 Release  : 48
-URL      : http://ftp.mozilla.org/pub/firefox/releases/68.0/linux-x86_64/en-US/firefox-68.0.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/firefox/releases/68.0/linux-x86_64/en-US/firefox-68.0.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/firefox/releases/68.0/source/firefox-68.0.source.tar.xz
+URL      : https://ftp.mozilla.org/pub/firefox/releases/68.0/linux-x86_64/en-US/firefox-68.0.tar.bz2
+Source0  : https://ftp.mozilla.org/pub/firefox/releases/68.0/linux-x86_64/en-US/firefox-68.0.tar.bz2
+Source1  : https://ftp.mozilla.org/pub/firefox/releases/68.0/source/firefox-68.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
