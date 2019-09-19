@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 69.0.1
-Release  : 51
+Release  : 52
 URL      : https://ftp.mozilla.org/pub/firefox/releases/69.0.1/linux-x86_64/en-US/firefox-69.0.1.tar.bz2
 Source0  : https://ftp.mozilla.org/pub/firefox/releases/69.0.1/linux-x86_64/en-US/firefox-69.0.1.tar.bz2
 Source1  : https://ftp.mozilla.org/pub/firefox/releases/69.0.1/source/firefox-69.0.1.source.tar.xz
