@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 72.0.1
+Version  : 72.0.2
 Release  : 59
-URL      : https://ftp.mozilla.org/pub/firefox/releases/72.0.1/linux-x86_64/en-US/firefox-72.0.1.tar.bz2
-Source0  : https://ftp.mozilla.org/pub/firefox/releases/72.0.1/linux-x86_64/en-US/firefox-72.0.1.tar.bz2
-Source1  : https://ftp.mozilla.org/pub/firefox/releases/72.0.1/source/firefox-72.0.1.source.tar.xz
+URL      : https://ftp.mozilla.org/pub/firefox/releases/72.0.2/linux-x86_64/en-US/firefox-72.0.2.tar.bz2
+Source0  : https://ftp.mozilla.org/pub/firefox/releases/72.0.2/linux-x86_64/en-US/firefox-72.0.2.tar.bz2
+Source1  : https://ftp.mozilla.org/pub/firefox/releases/72.0.2/source/firefox-72.0.2.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
