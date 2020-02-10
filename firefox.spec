@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 73.0
-Release  : 60
+Release  : 61
 URL      : https://ftp.mozilla.org/pub/firefox/releases/73.0/linux-x86_64/en-US/firefox-73.0.tar.bz2
 Source0  : https://ftp.mozilla.org/pub/firefox/releases/73.0/linux-x86_64/en-US/firefox-73.0.tar.bz2
 Source1  : https://ftp.mozilla.org/pub/firefox/releases/73.0/source/firefox-73.0.source.tar.xz
