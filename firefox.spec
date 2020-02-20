@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 73.0.1
-Release  : 62
+Release  : 62.1
 URL      : https://ftp.mozilla.org/pub/firefox/releases/73.0.1/linux-x86_64/en-US/firefox-73.0.1.tar.bz2
 Source0  : https://ftp.mozilla.org/pub/firefox/releases/73.0.1/linux-x86_64/en-US/firefox-73.0.1.tar.bz2
 Source1  : https://ftp.mozilla.org/pub/firefox/releases/73.0.1/source/firefox-73.0.1.source.tar.xz
@@ -12,6 +12,7 @@ License  : GPL-2.0+ MPL-2.0
 Requires : alsa-lib bzip2 tar
 Requires : chrome-gnome-shell
 Requires : nspr nss-lib pango cairo gtk3 mesa gtk+
+Requires : dbus-glib
 
 %description
 Introduction
