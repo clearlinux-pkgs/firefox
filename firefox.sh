@@ -9,7 +9,7 @@ fi
 
 BASEDIR="/usr/share/firefox-stub"
 SFILE="${BASEDIR}/firefox-${VERSION}.tar"
-FIREFOX_INSTALL_DIR=${FIREFOX_INSTALL_DIR:-"${HOME}/firefox"}
+FIREFOX_INSTALL_DIR=${FIREFOX_INSTALL_DIR:-"${HOME}/.firefox"}
 LFILE="${FIREFOX_INSTALL_DIR}/firefox"
 # p11-kit provides a "bridge" for libnss to access the trust information
 NSSCKBI="${FIREFOX_INSTALL_DIR}/libnssckbi.so"
