@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 78.0.1
-Release  : 62.1
+Release  : 63
 URL      : https://ftp.mozilla.org/pub/firefox/releases/78.0.1/linux-x86_64/en-US/firefox-78.0.1.tar.bz2
 Source0  : https://ftp.mozilla.org/pub/firefox/releases/78.0.1/linux-x86_64/en-US/firefox-78.0.1.tar.bz2
 Source1  : https://ftp.mozilla.org/pub/firefox/releases/78.0.1/source/firefox-78.0.1.source.tar.xz
