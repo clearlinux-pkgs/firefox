@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 78.0.2
-Release  : 64
-URL      : https://ftp.mozilla.org/pub/firefox/releases/78.0.2/linux-x86_64/en-US/firefox-78.0.2.tar.bz2
-Source0  : https://ftp.mozilla.org/pub/firefox/releases/78.0.2/linux-x86_64/en-US/firefox-78.0.2.tar.bz2
-Source1  : https://ftp.mozilla.org/pub/firefox/releases/78.0.2/source/firefox-78.0.2.source.tar.xz
+Version  : 79.0
+Release  : 65
+URL      : https://ftp.mozilla.org/pub/firefox/releases/79.0/linux-x86_64/en-US/firefox-79.0.tar.bz2
+Source0  : https://ftp.mozilla.org/pub/firefox/releases/79.0/linux-x86_64/en-US/firefox-79.0.tar.bz2
+Source1  : https://ftp.mozilla.org/pub/firefox/releases/79.0/source/firefox-79.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
