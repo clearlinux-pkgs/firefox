@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 83.0
-Release  : 75
-URL      : https://ftp.mozilla.org/pub/firefox/releases/83.0/linux-x86_64/en-US/firefox-83.0.tar.bz2
-Source0  : https://ftp.mozilla.org/pub/firefox/releases/83.0/linux-x86_64/en-US/firefox-83.0.tar.bz2
-Source1  : https://ftp.mozilla.org/pub/firefox/releases/83.0/source/firefox-83.0.source.tar.xz
+Version  : 84.0
+Release  : 76
+URL      : https://ftp.mozilla.org/pub/firefox/releases/84.0/linux-x86_64/en-US/firefox-84.0.tar.bz2
+Source0  : https://ftp.mozilla.org/pub/firefox/releases/84.0/linux-x86_64/en-US/firefox-84.0.tar.bz2
+Source1  : https://ftp.mozilla.org/pub/firefox/releases/84.0/source/firefox-84.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
