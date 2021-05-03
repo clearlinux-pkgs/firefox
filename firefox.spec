@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 88.0
-Release  : 85
+Release  : 86
 URL      : https://ftp.mozilla.org/pub/firefox/releases/88.0/linux-x86_64/en-US/firefox-88.0.tar.bz2
 Source0  : https://ftp.mozilla.org/pub/firefox/releases/88.0/linux-x86_64/en-US/firefox-88.0.tar.bz2
 Source1  : https://ftp.mozilla.org/pub/firefox/releases/88.0/source/firefox-88.0.source.tar.xz
