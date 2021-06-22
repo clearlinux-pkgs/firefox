@@ -1,9 +1,9 @@
 Name     : firefox
 Version  : ##VERSION##
 Release  : ##RELEASE##
-URL      : https://ftp.mozilla.org/pub/firefox/releases/##VERSION##/linux-x86_64/en-US/firefox-##VERSION##.tar.bz2
-Source0  : https://ftp.mozilla.org/pub/firefox/releases/##VERSION##/linux-x86_64/en-US/firefox-##VERSION##.tar.bz2
-Source1  : https://ftp.mozilla.org/pub/firefox/releases/##VERSION##/source/firefox-##VERSION##.source.tar.xz
+URL      : https://archive.mozilla.org/pub/firefox/releases/##VERSION##/linux-x86_64/en-US/firefox-##VERSION##.tar.bz2
+Source0  : https://archive.mozilla.org/pub/firefox/releases/##VERSION##/linux-x86_64/en-US/firefox-##VERSION##.tar.bz2
+Source1  : https://archive.mozilla.org/pub/firefox/releases/##VERSION##/source/firefox-##VERSION##.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
