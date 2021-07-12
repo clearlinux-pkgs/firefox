@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 89.0.2
-Release  : 91
-URL      : https://archive.mozilla.org/pub/firefox/releases/89.0.2/linux-x86_64/en-US/firefox-89.0.2.tar.bz2
-Source0  : https://archive.mozilla.org/pub/firefox/releases/89.0.2/linux-x86_64/en-US/firefox-89.0.2.tar.bz2
-Source1  : https://archive.mozilla.org/pub/firefox/releases/89.0.2/source/firefox-89.0.2.source.tar.xz
+Version  : 90.0
+Release  : 92
+URL      : https://archive.mozilla.org/pub/firefox/releases/90.0/linux-x86_64/en-US/firefox-90.0.tar.bz2
+Source0  : https://archive.mozilla.org/pub/firefox/releases/90.0/linux-x86_64/en-US/firefox-90.0.tar.bz2
+Source1  : https://archive.mozilla.org/pub/firefox/releases/90.0/source/firefox-90.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
