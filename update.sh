@@ -11,7 +11,7 @@ VERSION=$(curl -sSf https://archive.mozilla.org/pub/firefox/releases/ \
 	    | cut -f3 -d">" \
 	    | cut -f1 -d"/" \
 	    | grep -Ex '[0-9.]+' \
-	    | sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n \
+	    | sort --version-sort \
 	    | tail -1)
 
 if [[ -z "${VERSION}" ]]; then
