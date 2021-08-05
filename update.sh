@@ -10,7 +10,7 @@ VERSION=$(curl -sSf https://archive.mozilla.org/pub/firefox/releases/ \
 	    | grep href \
 	    | cut -f3 -d">" \
 	    | cut -f1 -d"/" \
-	    | grep -Ex '[0-9.]+' \
+	    | grep -Ex '[0-9b.]+' \
 	    | sort --version-sort \
 	    | tail -1)
 
