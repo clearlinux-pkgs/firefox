@@ -6,12 +6,17 @@ set -o pipefail
 PKG=firefox
 
 git pull --ff-only
+# The `sed ... | sort --version-sort | sed ...` part of the pipeline forces
+# beta releases sort correctly, leveraging the fact that the tilde character
+# sorts before any other character.
 VERSION=$(curl -sSf https://archive.mozilla.org/pub/firefox/releases/ \
 	    | grep href \
 	    | cut -f3 -d">" \
 	    | cut -f1 -d"/" \
-	    | grep -Ex '[0-9b.]+' \
+	    | sed 's/b/~/' \
 	    | sort --version-sort \
+	    | sed 's/~/b/' \
+	    | grep -Ex '[0-9b.]+' \
 	    | tail -1)
 
 if [[ -z "${VERSION}" ]]; then
