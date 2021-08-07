@@ -16,7 +16,7 @@ VERSION=$(curl -sSf https://archive.mozilla.org/pub/firefox/releases/ \
 	    | sed 's/b/~/' \
 	    | sort --version-sort \
 	    | sed 's/~/b/' \
-	    | grep -Ex '[0-9b.]+' \
+	    | grep -Ex '(91\.0b[0-9]+|[0-9.]+)' \
 	    | tail -1)
 
 if [[ -z "${VERSION}" ]]; then
