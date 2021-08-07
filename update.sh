@@ -8,7 +8,7 @@ PKG=firefox
 git pull --ff-only
 # The `sed ... | sort --version-sort | sed ...` part of the pipeline forces
 # beta releases sort correctly, leveraging the fact that the tilde character
-# sorts before any other character.
+# sorts before any other character when using --version-sort.
 VERSION=$(curl -sSf https://archive.mozilla.org/pub/firefox/releases/ \
 	    | grep href \
 	    | cut -f3 -d">" \
