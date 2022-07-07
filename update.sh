@@ -1,7 +1,5 @@
 #!/bin/bash
-
-set -e
-set -o pipefail
+set -e -o pipefail
 
 PKG=firefox
 
@@ -28,7 +26,7 @@ CURRENT_VERSION=$(grep "^Version" $PKG.spec | awk '{ print $3 }')
 CURRENT_RELEASE=$(grep "^Release" $PKG.spec | awk '{ print $3 }')
 
 if [[ v"${CURRENT_VERSION}" == v"${VERSION}" ]]; then
-	exit 2
+	exit
 fi
 
 sed -e "s/##VERSION##/${VERSION}/g; s/##RELEASE##/${CURRENT_RELEASE}/" $PKG.spec.in > $PKG.spec
@@ -38,4 +36,4 @@ make generateupstream || exit 3
 make bumpnogit
 git add $PKG.spec Makefile release upstream
 git commit -s -m "Update to ${VERSION}"
-make koji
+make koji-nowait
