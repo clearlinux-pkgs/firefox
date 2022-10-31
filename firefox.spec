@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 106.0.3
-Release  : 141
+Release  : 142
 URL      : https://archive.mozilla.org/pub/firefox/releases/106.0.3/linux-x86_64/en-US/firefox-106.0.3.tar.bz2
 Source0  : https://archive.mozilla.org/pub/firefox/releases/106.0.3/linux-x86_64/en-US/firefox-106.0.3.tar.bz2
 Source1  : https://archive.mozilla.org/pub/firefox/releases/106.0.3/source/firefox-106.0.3.source.tar.xz
@@ -10,7 +10,6 @@ Summary  : Firefox web browser
 Group    : Development/Tools
 License  : GPL-2.0+ MPL-2.0
 Requires : alsa-lib bzip2 tar
-Requires : chrome-gnome-shell
 Requires : nspr nss-lib pango cairo gtk3 mesa gtk+
 Requires : dbus-glib
 
