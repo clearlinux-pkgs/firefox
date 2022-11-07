@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 106.0.4
-Release  : 143
-URL      : https://archive.mozilla.org/pub/firefox/releases/106.0.4/linux-x86_64/en-US/firefox-106.0.4.tar.bz2
-Source0  : https://archive.mozilla.org/pub/firefox/releases/106.0.4/linux-x86_64/en-US/firefox-106.0.4.tar.bz2
-Source1  : https://archive.mozilla.org/pub/firefox/releases/106.0.4/source/firefox-106.0.4.source.tar.xz
+Version  : 106.0.5
+Release  : 144
+URL      : https://archive.mozilla.org/pub/firefox/releases/106.0.5/linux-x86_64/en-US/firefox-106.0.5.tar.bz2
+Source0  : https://archive.mozilla.org/pub/firefox/releases/106.0.5/linux-x86_64/en-US/firefox-106.0.5.tar.bz2
+Source1  : https://archive.mozilla.org/pub/firefox/releases/106.0.5/source/firefox-106.0.5.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
