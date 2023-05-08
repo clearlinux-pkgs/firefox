@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 113.0
-Release  : 159
+Release  : 160
 URL      : https://archive.mozilla.org/pub/firefox/releases/113.0/linux-x86_64/en-US/firefox-113.0.tar.bz2
 Source0  : https://archive.mozilla.org/pub/firefox/releases/113.0/linux-x86_64/en-US/firefox-113.0.tar.bz2
 Source1  : https://archive.mozilla.org/pub/firefox/releases/113.0/source/firefox-113.0.source.tar.xz

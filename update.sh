@@ -35,5 +35,5 @@ make generateupstream || exit 3
 
 make bumpnogit
 git add $PKG.spec Makefile release upstream
-git commit -s -m "Update to ${VERSION}"
+git commit -a -m "Update to ${VERSION}"
 make koji-nowait
