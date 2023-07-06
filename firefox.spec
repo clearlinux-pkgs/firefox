@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 114.0.2
-Release  : 165
-URL      : https://archive.mozilla.org/pub/firefox/releases/114.0.2/linux-x86_64/en-US/firefox-114.0.2.tar.bz2
-Source0  : https://archive.mozilla.org/pub/firefox/releases/114.0.2/linux-x86_64/en-US/firefox-114.0.2.tar.bz2
-Source1  : https://archive.mozilla.org/pub/firefox/releases/114.0.2/source/firefox-114.0.2.source.tar.xz
+Version  : 115.0
+Release  : 166
+URL      : https://archive.mozilla.org/pub/firefox/releases/115.0/linux-x86_64/en-US/firefox-115.0.tar.bz2
+Source0  : https://archive.mozilla.org/pub/firefox/releases/115.0/linux-x86_64/en-US/firefox-115.0.tar.bz2
+Source1  : https://archive.mozilla.org/pub/firefox/releases/115.0/source/firefox-115.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
