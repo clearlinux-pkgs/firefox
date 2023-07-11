@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 115.0.2
-Release  : 167
+Release  : 168
 URL      : https://archive.mozilla.org/pub/firefox/releases/115.0.2/linux-x86_64/en-US/firefox-115.0.2.tar.bz2
 Source0  : https://archive.mozilla.org/pub/firefox/releases/115.0.2/linux-x86_64/en-US/firefox-115.0.2.tar.bz2
 Source1  : https://archive.mozilla.org/pub/firefox/releases/115.0.2/source/firefox-115.0.2.source.tar.xz
