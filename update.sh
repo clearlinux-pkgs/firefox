@@ -16,6 +16,8 @@ VERSION=$(curl -sSf https://archive.mozilla.org/pub/firefox/releases/ \
 	    | sed 's/~/b/' \
 	    | grep -Ex '(91\.0b[0-9]+|[0-9.]+)' \
 	    | tail -1)
+	    
+echo "version is ${VERSION}"	  
 
 if [[ -z "${VERSION}" ]]; then
     echo "Unable to find version upstream."
