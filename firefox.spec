@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 124.0
+Version  : 124.0.1
 Release  : 189
-URL      : https://archive.mozilla.org/pub/firefox/releases/124.0/linux-x86_64/en-US/firefox-124.0.tar.bz2
-Source0  : https://archive.mozilla.org/pub/firefox/releases/124.0/linux-x86_64/en-US/firefox-124.0.tar.bz2
-Source1  : https://archive.mozilla.org/pub/firefox/releases/124.0/source/firefox-124.0.source.tar.xz
+URL      : https://archive.mozilla.org/pub/firefox/releases/124.0.1/linux-x86_64/en-US/firefox-124.0.1.tar.bz2
+Source0  : https://archive.mozilla.org/pub/firefox/releases/124.0.1/linux-x86_64/en-US/firefox-124.0.1.tar.bz2
+Source1  : https://archive.mozilla.org/pub/firefox/releases/124.0.1/source/firefox-124.0.1.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
