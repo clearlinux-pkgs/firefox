@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 125.0.2
-Release  : 193
+Release  : 194
 URL      : https://archive.mozilla.org/pub/firefox/releases/125.0.2/linux-x86_64/en-US/firefox-125.0.2.tar.bz2
 Source0  : https://archive.mozilla.org/pub/firefox/releases/125.0.2/linux-x86_64/en-US/firefox-125.0.2.tar.bz2
 Source1  : https://archive.mozilla.org/pub/firefox/releases/125.0.2/source/firefox-125.0.2.source.tar.xz
