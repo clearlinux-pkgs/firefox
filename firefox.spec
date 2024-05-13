@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 125.0.3
-Release  : 195
-URL      : https://archive.mozilla.org/pub/firefox/releases/125.0.3/linux-x86_64/en-US/firefox-125.0.3.tar.bz2
-Source0  : https://archive.mozilla.org/pub/firefox/releases/125.0.3/linux-x86_64/en-US/firefox-125.0.3.tar.bz2
-Source1  : https://archive.mozilla.org/pub/firefox/releases/125.0.3/source/firefox-125.0.3.source.tar.xz
+Version  : 126.0
+Release  : 196
+URL      : https://archive.mozilla.org/pub/firefox/releases/126.0/linux-x86_64/en-US/firefox-126.0.tar.bz2
+Source0  : https://archive.mozilla.org/pub/firefox/releases/126.0/linux-x86_64/en-US/firefox-126.0.tar.bz2
+Source1  : https://archive.mozilla.org/pub/firefox/releases/126.0/source/firefox-126.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
