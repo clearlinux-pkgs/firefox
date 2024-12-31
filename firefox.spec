@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 133.0.3
-Release  : 213
+Release  : 214
 URL      : https://archive.mozilla.org/pub/firefox/releases/133.0.3/linux-x86_64/en-US/firefox-133.0.3.tar.bz2
 Source0  : https://archive.mozilla.org/pub/firefox/releases/133.0.3/linux-x86_64/en-US/firefox-133.0.3.tar.bz2
 Source1  : https://archive.mozilla.org/pub/firefox/releases/133.0.3/source/firefox-133.0.3.source.tar.xz
