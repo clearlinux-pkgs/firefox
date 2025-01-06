@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 134.0
-Release  : 214
+Release  : 215
 URL      : https://archive.mozilla.org/pub/firefox/releases/134.0/linux-x86_64/en-US/firefox-134.0.tar.bz2
 Source0  : https://archive.mozilla.org/pub/firefox/releases/134.0/linux-x86_64/en-US/firefox-134.0.tar.bz2
 Source1  : https://archive.mozilla.org/pub/firefox/releases/134.0/source/firefox-134.0.source.tar.xz
