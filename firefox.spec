@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 135.0
-Release  : 218
+Release  : 219
 URL      : https://archive.mozilla.org/pub/firefox/releases/135.0/linux-x86_64/en-US/firefox-135.0.tar.xz
 Source0  : https://archive.mozilla.org/pub/firefox/releases/135.0/linux-x86_64/en-US/firefox-135.0.tar.xz
 Source1  : https://archive.mozilla.org/pub/firefox/releases/135.0/source/firefox-135.0.source.tar.xz
