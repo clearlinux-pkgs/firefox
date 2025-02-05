@@ -39,7 +39,7 @@ install -D -m 0644 default128.png %{buildroot}/usr/share/icons/hicolor/128x128/a
 
 # Install stub
 mkdir -p  %{buildroot}/usr/share/firefox-stub/
-bunzip2 -c %{SOURCE0} > %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar
+xz -d -c %{SOURCE0} > %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar
 
 
 # Desktop launcher
