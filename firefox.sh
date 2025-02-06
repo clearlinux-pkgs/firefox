@@ -8,7 +8,7 @@ if [ -f "${USER_CONFIG}" ]; then
 fi
 
 BASEDIR="/usr/share/firefox-stub"
-SFILE="${BASEDIR}/firefox-${VERSION}.tar"
+SFILE="${BASEDIR}/firefox-${VERSION}.tar.zst"
 FIREFOX_INSTALL_DIR=${FIREFOX_INSTALL_DIR:-"${HOME}/.firefox"}
 LFILE="${FIREFOX_INSTALL_DIR}/firefox"
 # p11-kit provides a "bridge" for libnss to access the trust information

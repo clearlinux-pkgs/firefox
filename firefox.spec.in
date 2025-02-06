@@ -39,8 +39,15 @@ install -D -m 0644 default128.png %{buildroot}/usr/share/icons/hicolor/128x128/a
 
 # Install stub
 mkdir -p  %{buildroot}/usr/share/firefox-stub/
-bunzip2 -c %{SOURCE0} > %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar
-
+case %{SOURCE0} in
+  *.tar.bz2)
+    bunzip2 -c %{SOURCE0} > %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar
+    ;;
+  *.tar.xz)
+    xz -d -c %{SOURCE0} > %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar
+    ;;
+esac
+zstd -z --rm -19 --rsyncable %{buildroot}/usr/share/firefox-stub/firefox-%{version}.tar
 
 # Desktop launcher
 install -D -m 00644 %{SOURCE2} %{buildroot}/usr/share/applications/firefox.desktop
@@ -54,7 +61,7 @@ sed -i %{buildroot}/usr/bin/firefox -e 's/\#\#VERSION\#\#/%{version}/g'
 %files
 %defattr(-,root,root,-)
 /usr/bin/firefox
-/usr/share/firefox-stub/firefox-%{version}.tar
+/usr/share/firefox-stub/firefox-%{version}.tar.zst
 /usr/share/applications/firefox.desktop
 /usr/share/icons/hicolor/16x16/apps/firefox.png
 /usr/share/icons/hicolor/32x32/apps/firefox.png
