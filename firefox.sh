@@ -17,7 +17,7 @@ P11KIT_BRIDGE="/usr/lib64/pkcs11/p11-kit-trust.so"
 
 # if the system trust strore symlink exists, then all is in place
 if [ -L "${NSSCKBI}" ] ; then
-    exec "${LFILE}" $*
+    exec "${LFILE}" "$@"
     exit 0
 fi
 
@@ -43,4 +43,4 @@ if [ -f "$P11KIT_BRIDGE" ]; then
     fi
 fi
 
-exec "${LFILE}" $*
+exec "${LFILE}" "$@"
