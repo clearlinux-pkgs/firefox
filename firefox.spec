@@ -1,6 +1,6 @@
 Name     : firefox
 Version  : 136.0.2
-Release  : 225
+Release  : 226
 URL      : https://archive.mozilla.org/pub/firefox/releases/136.0.2/linux-x86_64/en-US/firefox-136.0.2.tar.xz
 Source0  : https://archive.mozilla.org/pub/firefox/releases/136.0.2/linux-x86_64/en-US/firefox-136.0.2.tar.xz
 Source1  : https://archive.mozilla.org/pub/firefox/releases/136.0.2/source/firefox-136.0.2.source.tar.xz
