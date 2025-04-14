@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 137.0.1
-Release  : 227
-URL      : https://archive.mozilla.org/pub/firefox/releases/137.0.1/linux-x86_64/en-US/firefox-137.0.1.tar.xz
-Source0  : https://archive.mozilla.org/pub/firefox/releases/137.0.1/linux-x86_64/en-US/firefox-137.0.1.tar.xz
-Source1  : https://archive.mozilla.org/pub/firefox/releases/137.0.1/source/firefox-137.0.1.source.tar.xz
+Version  : 137.0.2
+Release  : 228
+URL      : https://archive.mozilla.org/pub/firefox/releases/137.0.2/linux-x86_64/en-US/firefox-137.0.2.tar.xz
+Source0  : https://archive.mozilla.org/pub/firefox/releases/137.0.2/linux-x86_64/en-US/firefox-137.0.2.tar.xz
+Source1  : https://archive.mozilla.org/pub/firefox/releases/137.0.2/source/firefox-137.0.2.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
