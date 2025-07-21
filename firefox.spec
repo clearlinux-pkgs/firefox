@@ -1,9 +1,9 @@
 Name     : firefox
-Version  : 140.0.4
+Version  : 141.0
 Release  : 239
-URL      : https://archive.mozilla.org/pub/firefox/releases/140.0.4/linux-x86_64/en-US/firefox-140.0.4.tar.xz
-Source0  : https://archive.mozilla.org/pub/firefox/releases/140.0.4/linux-x86_64/en-US/firefox-140.0.4.tar.xz
-Source1  : https://archive.mozilla.org/pub/firefox/releases/140.0.4/source/firefox-140.0.4.source.tar.xz
+URL      : https://archive.mozilla.org/pub/firefox/releases/141.0/linux-x86_64/en-US/firefox-141.0.tar.xz
+Source0  : https://archive.mozilla.org/pub/firefox/releases/141.0/linux-x86_64/en-US/firefox-141.0.tar.xz
+Source1  : https://archive.mozilla.org/pub/firefox/releases/141.0/source/firefox-141.0.source.tar.xz
 Source2  : firefox.desktop
 Source3  : firefox.sh
 Summary  : Firefox web browser
